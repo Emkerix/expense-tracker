@@ -5,6 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 **BACKEND**
+
 Navigate to the server directory:
 
 ### `cd server`
@@ -26,6 +27,7 @@ API Database:
 Access the API database at http://localhost:8000/.
 
 **FRONTEND**
+
 In the project directory, you can run:
 
 ### `npm start`
