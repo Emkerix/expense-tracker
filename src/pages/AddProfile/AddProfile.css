@@ -1,0 +1,58 @@
+.profileContainer.add select option:first-child{
+    display: none;
+}
+
+.profileContainer.add .form{
+    width: 400px;
+    border-radius: 10px;
+    text-align: left;
+    display: flex;
+    gap: 6px;
+    flex-direction: column;
+}
+
+.profileContainer.add .form form{
+    display: flex;
+    flex-direction: column;
+}
+
+.profileContainer.add .form input{
+    padding: 18px 11px;
+    height: auto !important;
+}
+
+.profileContainer.add .form .ant-select{
+    height: 63px;
+}
+
+.profileContainer.add .form textarea{
+    max-height: 180px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.profileContainer.add .form .ant-select span{
+font-size: 16px;
+font-weight: 600;
+}
+
+.profileContainer.add .form .ant-form-item{
+    margin-bottom: 0 !important;
+}
+
+.profileContainer.add .form button{
+    height: 54px;
+    font-size: 16px;
+}
+
+
+.profileContainer.add .form .ant-input-number{
+    width: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+    .profileContainer.add .form{
+        width: 350px;
+    }
+}

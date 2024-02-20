@@ -1,0 +1,79 @@
+
+.transactionContainer .empty{
+    font-size: 24px;
+    color: #fff;
+    padding: 30px 0;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    opacity: 0;
+    animation: fadeIn2 1s forwards;
+    animation-delay: 2s;
+}
+
+@keyframes fadeIn2 {
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+      pointer-events: none;
+    }
+  }
+
+.transactionContainer .empty span{
+    margin-bottom: 5px;
+}
+
+.transactionContainer .empty svg{
+    fill: #fff;
+    width: 45px;
+    height: 45px;
+}
+
+.transactionContainer .transactionList .list h2{
+    padding: 0 0 10px 6px;
+}
+
+.transactionContainer .list .ant-table-wrapper{
+    background: #fff;
+}
+
+.transactionContainer .transactionList .list .ant-spin-container .ant-pagination{
+    background: #fff !important;
+    margin: 0 0 !important;
+    padding: 16px 0;
+}
+
+@media only screen and (max-width: 500px) {
+    .transactionContainer .list .ant-table-wrapper{
+        background: #fff;
+        overflow: auto;
+    }
+    .transactionContainer .transactionList .list table td{
+        padding: 12px 2px !important;
+    }
+    .transactionContainer .transactionList .list table td .anticon{
+        display: none;
+    }
+    .transactionContainer .transactionList .list table td .anticon{
+        display: none;
+    }
+    .transactionContainer .transactionList .list table td span{
+        margin-left: 0 !important;
+        font-size: 12px;
+    }
+  }
+
+.transactionContainer .list :where(.css-dev-only-do-not-override-1rqnfsa).ant-pagination .ant-pagination-item-active:hover a{
+    color: #001529 !important;
+}
+
+.addExpenseButton{
+    border-radius: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 26px 0;
+    font-size: 16px;
+}

@@ -1,0 +1,9 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  position: relative;
+  background: #001529;
+  overflow-x: hidden;
+}

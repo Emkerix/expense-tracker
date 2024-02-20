@@ -1,0 +1,20 @@
+.menu-top{
+    padding: 15px 22px;
+    background: #5C48F0;
+    text-align: left;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 99;
+}
+
+.menu-top .anticon{
+    font-size: 30px;
+}

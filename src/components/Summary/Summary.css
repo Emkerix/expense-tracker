@@ -1,0 +1,54 @@
+.summary{
+    padding: 10px 10px;
+    background: #fff;
+    text-align: left;
+    font-size: 16px;
+    color: #001529;
+    position: relative;
+    width: 100%;
+    top: 0;
+    margin-top: 2px;
+}
+
+.summary :where(.css-dev-only-do-not-override-1rqnfsa).ant-btn {
+    height: auto;
+    font-size: 16px;
+    width: 300px;
+    transition: opacity 0.3s ease;
+}
+
+.summary :where(.css-dev-only-do-not-override-1rqnfsa).ant-btn:hover {
+    background: #5c48f0 !important;
+    color: #fff !important;
+}
+
+.summary.profileName{
+    margin-top: 62px;
+    justify-content: center;
+    display: flex;
+    font-weight: 600;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.summary .title{
+    display: flex;
+}
+
+.summary .title.profileName{
+    flex-direction: column;
+}
+
+.summary .title.profileName span{
+    padding: 0;
+}
+
+.summary .title span{
+    padding-left: 6px;
+}
+
+.summary svg{
+    fill: #5c48f0;
+    width: 20px;
+    height: 20px;
+}
